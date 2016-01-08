@@ -1,0 +1,82 @@
+/*@import url(https://fonts.googleapis.com/css?family=Quattrocento|Unica+One);
+@import url(https://fonts.googleapis.com/css?family=Raleway|Ubuntu);*/
+@import url(https://fonts.googleapis.com/css?family=Trochut);
+
+@font-face {
+    font-family: 'ragnierragnier';
+    src: url('font/ragnier-webfont.eot');
+    src: url('font/ragnier-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/ragnier-webfont.woff2') format('woff2'),
+         url('font/ragnier-webfont.woff') format('woff'),
+         url('font/ragnier-webfont.ttf') format('truetype'),
+         url('font/ragnier-webfont.svg#ragnierragnier') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  color: #fff;
+  font-family: 'Trochut';
+
+}
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'Trochut';
+}
+h1 {
+	font-family: 'ragnierragnier';
+	font-size: 5rem;
+}
+h3,  {
+  font-family: 'Trochut', cursive;
+  color: #333;
+}
+.deltav-v {
+  font-family: 'ragnierragnier';
+  font-size: 3rem;
+}
+#gradient
+{
+position: absolute;
+  width: 100%;
+  /*height: 100%;*/
+}
+/*
+Links
+ */
+a, a:visited {
+  /*margin-left: 30px;*/
+  font-family: 'Trochut';
+  color: #fff;
+  text-decoration: underline;
+}
+a:hover {
+font-family: 'Trochut', cursive;
+}
+/*
+CARD BORDER
+ */
+.card{
+  border: solid 3em #fff;
+  margin: 2rem;
+  padding: 5rem;
+}
+
+  .bottom-nav-bar {
+    display: flex;
+    position: relative;
+    color: #000;
+    z-index: 100;
+    margin-top: -4.5rem;
+  }
+  .bottom-nav-bar a {
+    color: #008287;
+  }
+
+  /*LOGO*/
+  .main-logo {
+    min-height:80px;
+    min-width:100px;
+  }
+  a.direct-contact  img{
+  max-height: 1rem;
+  max-width: 1rem;
+ }   

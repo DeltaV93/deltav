@@ -1,0 +1,52 @@
+/*
+MEDIUM SIZE SCREEN
+ */
+@media screen and (min-width: 40em) {
+/* Border */
+	.card {
+		border: solid 3.0rem #fff;
+	}	
+	.bottom-nav-bar {	
+    	margin-top: -4.7rem;
+	}
+	a.direct-contact  img{
+		min-height: 0.5rem;
+		min-width: 0.5rem;
+		margin-right: 0.55rem
+	} 				
+}
+/*SMALL SCREEN*/
+@media screen and (max-width: 39.9375em) {
+
+/* Border */
+	.card {
+		border: solid 1.6rem #fff;
+	}
+/*
+Font 
+ */
+ 	h1 {
+	font-size: 3em;
+    line-height: 0.7;		
+ 	}
+ 	h3 {
+		font-size: 0.9500rem; 
+		font-family: 'Trochut', cursive;		
+ 	}
+	.bottom-nav-bar {
+	margin-top: -3.7rem;
+	font-family: 'Trochut', cursive;
+	}	
+	/*
+	Contact Links
+	 */
+	.direct-contact {
+		display: inherit;
+	}
+	a.direct-contact  img{
+		min-height: 0.5rem;
+		min-width: 0.5rem;
+		margin-right: 0.25rem
+	} 
+
+}
