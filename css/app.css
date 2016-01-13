@@ -1,7 +1,10 @@
-/*@import url(https://fonts.googleapis.com/css?family=Quattrocento|Unica+One);
-@import url(https://fonts.googleapis.com/css?family=Raleway|Ubuntu);*/
 @import url(https://fonts.googleapis.com/css?family=Trochut);
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 @font-face {
     font-family: 'ragnierragnier';
     src: url('font/ragnier-webfont.eot');
@@ -26,8 +29,8 @@ h1 {
 	font-size: 5rem;
 }
 h3,  {
-  font-family: 'Trochut', cursive;
-  color: #333;
+  font-family: 'Trochut';
+  color: #000;
 }
 .deltav-v {
   font-family: 'ragnierragnier';
@@ -59,6 +62,10 @@ CARD BORDER
   margin: 2rem;
   padding: 5rem;
 }
+  a.direct-contact {
+    margin-right: 1.45rem;
+
+  } 
 
   .bottom-nav-bar {
     display: flex;
