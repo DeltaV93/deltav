@@ -24,7 +24,48 @@
             </div>
             <div class="row align-center text-center">
               <!-- <div class="col-lg-12 col-mg-12 col-sm-12 container sub-icons"> -->
-              <a class="direct-contact" href="mailto:valerie.n.sharp93@gmail.com"> <img class="small-1 contact-icons email" src="img/email.png">Contact Me</img></a>
+              <a class="direct-contact"  data-togle="contact-modal" href=""> <img class="small-1 contact-icons email" src="img/email.png">Contact Me</img></a>
+<!-- Modal -->
+                <div class="reveal"  id="contact-modal" data-reveal>
+                  <h4 style="color:black;">Thank you for reaching you to me!</h1>
+                  <p style="color:black;">Fill out this form to send me a message. All friendships start with a simple(sometime akward) conversation.</p>
+                  <form>
+                      <div class="row">
+                        <div class="medium-6 columns">
+                            <label class="float-left">First Name</label>
+                              <input required type="text" placeholder="First Name">
+                        </div>
+                        <div class="medium-6 columns">
+                            <label class="float-left">Last Name</label>
+                              <input type="text" placeholder="Last Name">
+                        </div>                        
+                      </div>
+                      <!--  -->
+                      <div class="row">
+                        <div class="large-12 columns">
+                            <label class="float-left">Email</label>
+                            <input required type="text" placeholder="Email">
+                        </div>
+                      </div>
+                      <!--  -->
+                      <!-- <div class="row"> -->
+                        <label class="float-left">Your Message</label>
+                          <textarea required placeholder="Lovely messages goes here."></textarea>
+                      <!-- </div> -->
+                  <!--  -->
+
+                    <fieldset >
+                      <legend class="float-left" style="color:black;">Message Subject</legend>
+                      <div class="row">
+                        <input type="checkbox" id="checkbox"><label for="Ux">UX</label>
+                        <input type="checkbox" id="checkbox"><label for="Ux">Front End</label>
+                        </div>
+                    </fieldset>
+                  <div>
+                    <button type="button" class="button warning"><strong>Send Message</strong></button>
+                  </div>
+                  </form>
+                </div>
               <a class="direct-contact" href=""><img class="small-1 contact-icons resume" src="img/resume.png">View resume</img></a>
             </div>
         </div>
@@ -38,5 +79,8 @@
     <script src="js/vendor/what-input.min.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/app.js"></script>
+    <script>
+      $('#contact-modal').foundation('open');
+    </script>
   </body>
 </html>
